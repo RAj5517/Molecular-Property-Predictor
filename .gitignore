@@ -1,0 +1,17 @@
+# weights — never push these
+models/
+*.pt
+*.pkl
+*.bin
+
+# colab checkpoints
+checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# data
+data/

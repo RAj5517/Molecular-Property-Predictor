@@ -1,0 +1,12 @@
+deepchem
+rdkit-pypi
+transformers
+torch
+streamlit
+scikit-learn
+pandas
+numpy
+matplotlib
+huggingface_hub
+requests
+Pillow
