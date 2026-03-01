@@ -10,10 +10,14 @@ Weights hosted on HuggingFace — no training required.
 | rf_bbbp.pkl | Random Forest — BBB penetration | AUC: 0.9330 |
 | rf_esol.pkl | Random Forest — Solubility | R²: 0.71 |
 
+
 ## Results
 
-| Model | Dataset | Metric | Score |
-|-------|---------|--------|-------|
-| Random Forest | BBBP | ROC-AUC | 0.9330 |
-| ChemBERTa | BBBP | ROC-AUC | 0.9339 |
-| Random Forest | ESOL | R² | 0.71 |
+| Model | BBBP AUC | ESOL RMSE |
+|-------|----------|-----------|
+| Random Forest | 0.9330 | 1.163 |
+| ChemBERTa single-task | 0.9339 | — |
+| Multi-task ChemBERTa V3 | **0.9393** | **0.821** |
+
+Multi-task model beats both baselines simultaneously.
+One model predicts BBB penetration AND solubility.
