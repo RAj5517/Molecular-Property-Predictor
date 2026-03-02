@@ -1,13 +1,8 @@
-deepchem
-rdkit-pypi
+streamlit
+rdkit
 transformers
 torch
-streamlit
 scikit-learn
-pandas
-numpy
-matplotlib
 huggingface_hub
 requests
 Pillow
-rdkit
